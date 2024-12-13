@@ -1,0 +1,885 @@
+### S1D3WYZ current personal filter for PoE2 Invoker - EV/ES and Quarterstaff Progression
+#		Use At Own Risk or just to get idea how I'm handling some things
+#		Uses custom gold.wav from D2 , filter & sound go in user/docs/games/poe2 .. no subfolders
+
+### UNIQUES
+
+Show
+	Rarity Unique
+	SetFontSize 40
+	SetBorderColor 175 96 37 255
+	SetTextColor 175 96 37 255
+	SetBackgroundColor 53 13 13 255
+	PlayAlertSound 3 300
+	MinimapIcon 2 Brown Star
+	PlayEffect Brown
+
+### FRAGMENTS
+
+Show
+	Class == "expedition logbooks" "inscribed ultimatum" "trial coins" "pinnacle keys"
+	SetFontSize 40
+	SetBorderColor 255 127 127 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # Fate
+	Class == "map fragments"
+	BaseType == "cowardly fate" "deadly fate" "victorious fate"
+
+Show # Ritual
+	Class == "map fragments"
+	BaseType == "an audience with the king"
+
+Show # Ritual Vessel
+	Class == "map fragments"
+	BaseType == "blood-filled vessel"
+
+Show # Simulacrum
+	Class == "map fragments"
+	BaseType == "simulacrum"
+
+Show # Unrelenting Timeless
+	Class == "map fragments"
+	BaseType == "unrelenting timeless eternal emblem" "unrelenting timeless karui emblem" "unrelenting timeless maraketh emblem" "unrelenting timeless templar emblem" "unrelenting timeless vaal emblem"
+
+Show # Timeless
+	Class == "map fragments"
+	BaseType == "timeless eternal emblem" "timeless karui emblem" "timeless maraketh emblem" "timeless templar emblem" "timeless vaal emblem"
+
+Show # Elderslayers
+	Class == "map fragments"
+	BaseType == "crest of the elderslayers"
+
+Show # Elderslayers
+	Class == "map fragments"
+	BaseType == "al-hezmin's crest" "baran's crest" "drox's crest" "veritania's crest"
+
+Show # Uber Elder
+	Class == "map fragments"
+	BaseType == "maddening object"
+
+Show # Uber Elder
+	Class == "map fragments"
+	BaseType == "fragment of terror" "fragment of emptiness" "fragment of shape" "fragment of knowledge"
+
+Show # Shaper
+	Class == "map fragments"
+	BaseType == "key to the crucible"
+
+Show # Shaper
+	Class == "map fragments"
+	BaseType == "fragment of enslavement" "fragment of eradication" "fragment of constriction" "fragment of purification"
+
+Show # Elder
+	Class == "map fragments"
+	BaseType == "key to decay"
+
+Show # Elder
+	Class == "map fragments"
+	BaseType == "fragment of the phoenix" "fragment of the minotaur" "fragment of the chimera" "fragment of the hydra"
+
+Show # Pale Court
+	Class == "map fragments"
+	BaseType == "Pale Court Set"
+
+Show # Pale Court
+	Class == "map fragments"
+	BaseType == "eber's key" "yriel's key" "inya's key" "volkuur's key"
+
+Show # Uber Atziri
+	Class == "map fragments"
+	BaseType == "mortal set"
+
+Show # Uber Atziri
+	Class == "map fragments"
+	BaseType == "mortal rage" "mortal hope" "mortal ignorance" "mortal grief"
+
+Show # Atziri
+	Class == "map fragments"
+	BaseType == "Sacrifice Set"
+
+Show # Atziri
+	Class == "map fragments"
+	BaseType == "sacrifice at midnight" "sacrifice at dawn" "sacrifice at noon" "sacrifice at dusk"
+
+Show
+	Class == "map fragments"
+	BaseType == "divine vessel"
+
+### WAYSTONES
+
+Show
+	Class == "waystones"
+	WaystoneTier == 16
+	#AreaLevel <= 80 #T16
+
+Show
+	Class == "waystones"
+	WaystoneTier == 15
+	#AreaLevel <= 79 #T15
+
+Show
+	Class == "waystones"
+	WaystoneTier == 14
+	#AreaLevel <= 78 #T14
+
+Show
+	Class == "waystones"
+	WaystoneTier == 13
+	#AreaLevel <= 77 #T13
+
+Show
+	Class == "waystones"
+	WaystoneTier == 12
+	#AreaLevel <= 76 #T12
+
+Show
+	Class == "waystones"
+	WaystoneTier == 11
+	#AreaLevel <= 75 #T11
+
+Show
+	Class == "waystones"
+	WaystoneTier == 10
+	#AreaLevel <= 74 #T10
+
+Show
+	Class == "waystones"
+	WaystoneTier == 9
+	#AreaLevel <= 73 #T9
+
+Show
+	Class == "waystones"
+	WaystoneTier == 8
+	#AreaLevel <= 72 #T8
+
+Show
+	Class == "waystones"
+	WaystoneTier == 7
+	#AreaLevel <= 71 #T7
+
+Show
+	Class == "waystones"
+	WaystoneTier == 6
+	#AreaLevel <= 70 #T6
+
+Show
+	Class == "waystones"
+	WaystoneTier == 5
+	#AreaLevel <= 69 #T5
+
+Show
+	Class == "waystones"
+	WaystoneTier == 4
+	#AreaLevel <= 68 #T4
+
+Show
+	Class == "waystones"
+	WaystoneTier == 3
+	#AreaLevel <= 67 #T3
+
+Show
+	Class == "waystones"
+	WaystoneTier == 2
+	#AreaLevel <= 66 #T2
+
+Show
+	Class == "waystones"
+	WaystoneTier == 1
+	#AreaLevel <= 58 #T1 - alvl 65
+
+#Hide
+#	Class == "waystones"
+#	Rarity <= Rare
+
+### TABLET
+
+Show
+	Class == "tablet"
+	SetFontSize 40
+	SetBorderColor 255 127 127 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+### SOCKETABLE
+
+Show
+	Class == "socketable"
+	BaseType = "soul core of "
+	SetFontSize 40
+	SetBorderColor 255 127 127 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show
+	Class == "socketable"
+	SetFontSize 36
+	SetBorderColor 127 127 255 255
+
+### CURRENCY
+
+Show # Catalyst
+	BaseType == "adaptive catalyst" "flesh catalyst" "neural catalyst" "carapace catalyst" "reaver catalyst" "sibilant catalyst" "skittering catalyst" "chayula's catalyst" "esh's catalyst" "tul's catalyst" "uul-netol's catalyst" "xoph's catalyst"
+	SetBorderColor 111 63 31 255
+	SetTextColor 111 63 31 255
+	SetBackgroundColor 167 159 145 223
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
+
+Show # Distilled
+	BaseType == "distilled despair" "distilled disgust" "distilled envy" "distilled fear" "distilled greed" "distilled guilt" "distilled ire" "distilled isolation" "distilled paranoia" "distilled suffering"
+	SetFontSize 40
+	SetBorderColor 63 79 111 255
+	SetTextColor 63 79 111 255
+	SetBackgroundColor 167 173 183 223
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+
+Show # Greater Essence
+	BaseType == "greater essence of battle" "greater essence of electricity" "greater essence of enhancement" "greater essence of flames" "greater essence of haste" "greater essence of ice" "greater essence of ruin" "greater essence of sorcery" "greater essence of the body" "greater essence of the infinite" "greater essence of the mind" "greater essence of torment" "gemcutter's prism" "glassblower's bauble" "greater jeweller's orb"
+	SetBorderColor 111 63 31 255
+	SetTextColor 111 63 31 255
+	SetBackgroundColor 167 159 145 223
+	PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
+
+Show # Essence
+	BaseType == "essence of battle" "essence of electricity" "essence of enhancement" "essence of flames" "essence of haste" "essence of ice" "essence of ruin" "essence of sorcery" "essence of the body" "essence of the infinite" "essence of the mind" "essence of torment"
+	SetBorderColor 127 175 255 255
+	SetTextColor 127 175 255 255
+	SetBackgroundColor 0 7 31 223
+
+Show # S-Tier
+	BaseType == "albino rhoa feather" "divine orb" "mirror of kalandra"
+	SetFontSize 40
+	SetBorderColor 255 0 0 255
+	SetTextColor 255 0 0 255
+	SetBackgroundColor 255 255 255 223
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show # A-Tier
+	BaseType == "exalted orb" "gold key" "orb of annulment" "perfect jeweller's orb"
+	SetFontSize 40
+	SetBorderColor 63 79 111 255
+	SetTextColor 63 79 111 255
+	SetBackgroundColor 167 173 183 223
+	PlayAlertSound 1 300
+	PlayEffect Red
+	MinimapIcon 0 Red Circle
+
+Show # B-Tier
+	BaseType == "orb of alchemy" "regal orb" "silver key" "vaal orb"
+	SetFontSize 36
+	SetBorderColor 63 63 127 255
+	SetTextColor 63 63 127 255
+	SetBackgroundColor 181 181 181 223
+	#PlayAlertSound 2 300
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Circle
+
+Show # C-Tier
+	BaseType == "alchemy shard" "arcanist's etcher" "armourer's scrap" "artificer's orb" "black scythe artifact" "blacksmith's whetstone" "broken circle artifact" "chance shard" "chaos orb" "lesser jeweller's orb" "order artifact" "regal shard" "sun artifact"
+	SetBorderColor 175 159 111 255
+	SetTextColor 175 159 111 255
+	SetBackgroundColor 31 31 23 223
+	#PlayAlertSound 2 300
+	PlayEffect White
+	MinimapIcon 2 White Circle
+
+Show # D-Tier
+	BaseType == "artificer's shard" "bronze key" "orb of augmentation" "orb of transmutation"
+	SetBorderColor 127 175 255 255
+	SetTextColor 127 175 255 255
+	SetBackgroundColor 0 7 31 223
+
+Show # F-Tier
+	BaseType == "breach splinter" "simulacrum splinter" "transmutation shard"
+	SetBorderColor 127 175 255 255
+	SetTextColor 127 175 255 255
+	SetBackgroundColor 0 7 31 223
+
+Show # Wisdom
+	BaseType == "scroll of wisdom"
+
+Show # yuge
+	StackSize >= 2000
+	BaseType == "Gold"
+	SetFontSize 45
+	SetTextColor 255 191 0 255
+	SetBorderColor 255 191 0 255
+	SetBackgroundColor 255 255 255 255
+	PlayEffect Orange
+	MinimapIcon 1 Yellow Cross
+	CustomAlertSound "gold.wav" 300
+
+Show # lorge
+	StackSize >= 500
+	BaseType == "Gold"
+	SetFontSize 45
+	SetTextColor 223 191 111 255
+	SetBorderColor 223 191 111 255
+	SetBackgroundColor 20 20 0 255
+	PlayEffect Orange Temp
+	MinimapIcon 1 White Cross
+	CustomAlertSound "gold.wav" 226
+
+Show # med
+	StackSize >= 150
+	BaseType == "Gold"
+	SetFontSize 40
+	SetTextColor 223 191 111 229
+	SetBorderColor 223 191 111 229
+	SetBackgroundColor 20 20 0 255
+	MinimapIcon 2 Grey Cross
+	CustomAlertSound "gold.wav" 172
+
+Show # smol
+	BaseType == "Gold"
+	SetFontSize 32
+	SetTextColor 223 191 111
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 20 20 0 180
+	MinimapIcon 2 Grey Cross
+	CustomAlertSound "gold.wav" 123
+
+## GEMS
+
+Show # Quality
+	Class == "skill gems"
+	Quality > 0
+	SetFontSize 40
+	SetBorderColor 0 0 127 255
+
+Show # Extra Sockets
+	Class == "skill gems"
+	Sockets > 3
+	SetFontSize 40
+	SetBorderColor 0 0 127 255
+
+Show
+	BaseType == "uncut skill gem"
+	SetBorderColor 0 0 127 191
+
+Show
+	BaseType == "uncut spirit gem"
+	SetBorderColor 127 0 0 191
+
+Show
+	BaseType == "uncut support gem"
+	SetBorderColor 0 127 0 191
+
+Show
+	Class == "skill gems"
+	SetBorderColor 0 0 127 191
+
+Show
+	Class == "support gems"
+	SetBorderColor 0 127 0 191
+
+## UNKNOWN CURRENCY CATCH
+
+Show #unknown
+	Class == "stackable currency"
+	SetFontSize 45
+	PlayAlertSound 6 300
+	SetBorderColor 255 223 223 255
+	PlayAlertSound 12 300
+
+### SPECIAL ?
+
+Show
+	Rarity <= Rare
+	FracturedItem True
+	Mirrored False
+	Corrupted False
+	SetFontSize 45
+	SetTextColor 47 223 247 255
+	SetBorderColor 255 191 31 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+
+Show
+	SynthesisedItem True
+	Rarity <= Rare
+	SetFontSize 45
+	SetTextColor 135 165 255 255
+	SetBorderColor 135 165 255 255
+	SetBackgroundColor 17 32 76 255
+	PlayAlertSound 3 300
+	PlayEffect Blue
+	MinimapIcon 1 Blue Diamond
+
+### FLASKS
+
+Show # Life
+	Mirrored False
+	Corrupted False
+	Rarity <= Magic
+	BaseType == "Ultimate Life Flask"
+	SetBorderColor 100 100 100 159
+	SetBackgroundColor 0 0 0 223
+
+Show # Mana
+	Mirrored False
+	Corrupted False
+	Rarity <= Magic
+	BaseType == "Ultimate Mana Flask"
+	SetBorderColor 100 100 100 159
+	SetBackgroundColor 0 0 0 223
+
+### GENERAL EQUIPMENT
+
+Show
+	Class == "relics"
+	Rarity <= Rare
+	SetFontSize 36
+	SetBorderColor 127 127 255 255
+
+Show
+	Class == "Amulets" "Rings" "Belts" "Charms" "Jewels"
+	Rarity <= Rare
+	SetFontSize 36
+	SetBorderColor 255 127 127 255
+
+Show
+	BaseType == "Grand Cuisses" "Grand Manchettes" "Grand Visage" "Golden Mantle" "Grand Regalia"
+	SetBorderColor 127 191 127 255
+
+## Quarterstaff Progression
+
+Show
+	BaseType == "wrapped quarterstaff"
+	AreaLevel <= 5 
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "long quarterstaff"
+	AreaLevel <= 12 
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "gothic quarterstaff"
+	AreaLevel <= 17 
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "crackling quarterstaff"
+	AreaLevel <= 21 
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "crescent quarterstaff"
+	AreaLevel <= 29
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "steelpoint quarterstaff"
+	AreaLevel <= 34
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "slicing quarterstaff"
+	AreaLevel <= 38
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "barrier quarterstaff"
+	AreaLevel <= 46
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "hefty quarterstaff" "advanced long quarterstaff"
+	AreaLevel <= 49
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "smooth quarterstaff" "advanced gothic quarterstaff"
+	AreaLevel <= 53
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "anima quarterstaff" "advanced crackling quarterstaff"
+	AreaLevel <= 57
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "graceful quarterstaff" "advanced crescent quarterstaff"
+	AreaLevel <= 60
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced slicing quarterstaff"
+	AreaLevel <= 63
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced barrier quarterstaff"
+	AreaLevel <= 66
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "wyrm quarterstaff"
+	AreaLevel <= 68
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert gothic quarterstaff"
+	AreaLevel <= 73
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert crescent quarterstaff"
+	AreaLevel <= 78
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert long quarterstaff" "expert slicing quarterstaff"
+	AreaLevel <= 79
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert crackling quarterstaff"
+	AreaLevel <= 80
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert barrier quarterstaff"
+	AreaLevel <= 99
+	SetBorderColor 127 191 127 255
+
+## EV/ES Glove
+
+Show
+	BaseType == "gauze wraps"
+	AreaLevel <= 17
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "linen wraps"
+	AreaLevel <= 34
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "spiral wraps"
+	AreaLevel <= 46
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "buckled wraps" "advanced gauze wraps"
+	AreaLevel <= 53
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "furtive wraps" "advanced linen wraps"
+	AreaLevel <= 60
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced spiral wraps"
+	AreaLevel <= 66
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "utility wraps" "expert gauze wraps"
+	AreaLevel <= 71
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert linen wraps"
+	AreaLevel <= 76
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert spiral wraps"
+	AreaLevel <= 99
+	SetBorderColor 127 191 127 255
+
+## EV/ES Boot
+
+Show
+	BaseType == "frayed shoes"
+	AreaLevel <= 17
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "threaded shoes"
+	AreaLevel <= 34
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "hunting shoes"
+	AreaLevel <= 46
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "steelpoint shoes" "advanced frayed shoes"
+	AreaLevel <= 46
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced threaded shoes" "velour shoes"
+	AreaLevel <= 60
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced hunting shoes"
+	AreaLevel <= 66
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "bladed shoes"
+	AreaLevel <= 71
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert frayed shoes"
+	AreaLevel <= 71
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert threaded shoes"
+	AreaLevel <= 76
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert hunting shoes"
+	AreaLevel <= 99
+	SetBorderColor 127 191 127 255
+
+## EV/ES HELM
+
+Show
+	BaseType == "hewn mask"
+	AreaLevel <= 11
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "face mask"
+	AreaLevel <= 17
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "hooded mask"
+	AreaLevel <= 29
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "veiled mask"
+	AreaLevel <= 34
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "tribal mask"
+	AreaLevel <= 46
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "solid mask" "advanced hewn mask"
+	AreaLevel <= 49
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced face mask"
+	AreaLevel <= 53
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced hooded mask" "shaded mask"
+	AreaLevel <= 56
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced veiled mask"
+	AreaLevel <= 60
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced tribal mask"
+	AreaLevel <= 66
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "death mask" "expert face mask"
+	AreaLevel <= 71
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert veiled mask"
+	AreaLevel <= 76
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "expert tribal mask"
+	AreaLevel <= 99
+	SetBorderColor 127 191 127 255
+
+## EV/ES BODY
+
+Show
+	BaseType == "hermit garb"
+	AreaLevel <= 12
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "waxed jacket"
+	AreaLevel <= 17
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "marabout garb"
+	AreaLevel <= 29
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "wayfarer jacket"
+	AreaLevel <= 34
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "anchorite garb"
+	AreaLevel <= 40
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "scalper's jacket"
+	AreaLevel <= 46
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "scoundrel jacket" "advanced hermit garb"
+	AreaLevel <= 49
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced waxed jacket"
+	AreaLevel <= 53
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "ascetic garb" "advanced marabout garb" "clandestine jacket"
+	AreaLevel <= 57
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced wayfarer jacket" "advanced anchorite garb"
+	AreaLevel <= 63
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "advanced scalper's jacket"
+	AreaLevel <= 66
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "torment jacket" "expert waxed jacket"
+	AreaLevel <= 69
+	SetBorderColor 127 191 127 255
+
+Show
+	BaseType == "devout garb" "expert wayfarer jacket" "assassin garb" "expert scalper's jacket"
+	AreaLevel <= 99
+	SetBorderColor 191 127 127 255
+
+### BASIC GENERIC DEFENSE TYPES
+
+# Show # AR
+# 	Rarity Normal Magic Rare
+# 	BaseArmour >= 1
+# 	BaseEvasion == 0
+# 	BaseEnergyShield == 0
+# 	SetBorderColor 127 0 0 127
+
+# Show # AR/EV
+# 	Rarity Normal Magic Rare
+# 	BaseArmour >= 1
+# 	BaseEvasion >= 1
+# 	BaseEnergyShield == 0
+# 	SetBorderColor 127 127 0 127
+
+# Show # EV
+# 	Rarity Normal Magic Rare
+# 	BaseArmour == 0
+# 	BaseEvasion >= 1
+# 	BaseEnergyShield == 0
+# 	SetBorderColor 0 127 0 127
+
+# Show # EV/ES
+# 	Rarity Normal Magic Rare
+# 	BaseArmour == 0
+# 	BaseEvasion >= 1
+# 	BaseEnergyShield >= 1
+# 	SetBorderColor 0 127 127 127
+
+# Show # ES
+# 	Rarity Normal Magic Rare
+# 	BaseArmour == 0
+# 	BaseEvasion == 0
+# 	BaseEnergyShield >= 1
+# 	SetBorderColor 0 0 127 127
+
+# Show # AR/ES
+# 	Rarity Normal Magic Rare
+# 	BaseArmour >= 1
+# 	BaseEvasion == 0
+# 	BaseEnergyShield >= 1
+# 	SetBorderColor 127 0 127 127
+
+### VENDOR
+
+Show # Sockets
+	Rarity <= Rare
+	Sockets > 0
+	SetFontSize 36
+	SetBorderColor 255 255 255 255
+
+Show # Quality
+	Rarity <= Rare
+	Class "helmets" "body armours" "gloves" "boots" "shields" "claws" "daggers" "wands" "one hand swords" "one hand axes" "one hand maces" "sceptres" "spears" "flails" "bows" "staves" "two hand swords" "two hand axes" "two hand maces" "quarterstaves" "crossbows" "traps" "fishing rods" "quivers" "foci"
+	Quality > 0
+	SetFontSize 36
+	SetBorderColor 255 255 255 255
+
+### CLEANUP LAYER
+
+Hide # SAFETY CHECK THEN HIDE
+	Rarity <= Magic
+	FracturedItem False
+	Mirrored False
+	Corrupted False
+	Class == "claws" "daggers" "wands" "one hand swords" "one hand axes" "one hand maces" "sceptres" "spears" "flails" "bows" "staves" "two hand swords" "two hand axes" "two hand maces" "quarterstaves" "crossbows" "traps" "quivers" "shields" "foci" "gloves" "boots" "body armours" "helmets" "life flasks" "mana flasks"
+	SetFontSize 20
+	SetBorderColor 0 0 0 0
+	SetBackgroundColor 0 0 0 127
+	DisableDropSound True
+
+Show
+ 	Rarity Rare
+ 	FracturedItem False
+ 	Mirrored False
+ 	Corrupted False
+ 	Class == "claws" "daggers" "wands" "one hand swords" "one hand axes" "one hand maces" "sceptres" "spears" "flails" "bows" "staves" "two hand swords" "two hand axes" "two hand maces" "quarterstaves" "crossbows" "traps" "quivers" "shields" "foci" "gloves" "boots" "body armours" "helmets"
+	#SetFontSize 33
+	SetBorderColor 127 127 0 255
+	SetBackgroundColor 0 0 0 127
+	DisableDropSound True
+
+### SAFETY CATCH
+
+Show #unknown
+	SetFontSize 45
+	PlayAlertSound 6 300
+	SetBorderColor 255 223 223 255
+	SetTextColor 255 223 223 255
+	SetBackgroundColor 255 0 63 255
+	PlayAlertSound 12 300
