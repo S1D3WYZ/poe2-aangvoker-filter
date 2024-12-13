@@ -8,4 +8,4 @@ Use at own risk (or just to see how I handle certain things / get ideas)
 
 Custom sound : gold from D2 - download it also, or comment out customAlertSound in # Gold sections
 
-Extract Filter & Sound from zip and container folder > user/docs/games/poe2/filesgohere .. no deeper subfolders
+sides-ev-es-qs.filter and gold.wav > user/docs/games/poe2/filesgohere .. no deeper subfolders
