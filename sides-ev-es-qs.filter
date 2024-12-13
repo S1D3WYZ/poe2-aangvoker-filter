@@ -310,7 +310,7 @@ Show # F-Tier
 Show # Wisdom
 	BaseType == "scroll of wisdom"
 
-Show # yuge
+Show # Gold yuge
 	StackSize >= 2000
 	BaseType == "Gold"
 	SetFontSize 45
@@ -321,7 +321,7 @@ Show # yuge
 	MinimapIcon 1 Yellow Cross
 	CustomAlertSound "gold.wav" 300
 
-Show # lorge
+Show # Gold lorge
 	StackSize >= 500
 	BaseType == "Gold"
 	SetFontSize 45
@@ -332,7 +332,7 @@ Show # lorge
 	MinimapIcon 1 White Cross
 	CustomAlertSound "gold.wav" 226
 
-Show # med
+Show # Gold mid
 	StackSize >= 150
 	BaseType == "Gold"
 	SetFontSize 40
@@ -342,7 +342,7 @@ Show # med
 	MinimapIcon 2 Grey Cross
 	CustomAlertSound "gold.wav" 172
 
-Show # smol
+Show # Gold smol
 	BaseType == "Gold"
 	SetFontSize 32
 	SetTextColor 223 191 111
