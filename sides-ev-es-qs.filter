@@ -1,6 +1,8 @@
 ### S1D3WYZ current personal filter for PoE2 Invoker - EV/ES and Quarterstaff Progression
 #		Use At Own Risk or just to get idea how I'm handling some things
-#		Uses custom gold.wav from D2 , filter & sound go in user/docs/games/poe2 .. no subfolders
+#		Uses custom gold.wav from D2 , 
+#		Extract .filter & .wav from zip and container folder
+#		> user/docs/games/poe2/filesgohere .. no subfolders
 
 ### UNIQUES
 
