@@ -1,4 +1,4 @@
-### S1D3WYZ current personal filter for PoE2 Invoker - EV/ES and Quarterstaff Progression v0.0.1b
+### S1D3WYZ current personal filter for PoE2 Invoker - EV/ES and Quarterstaff Progression v0.0.1c
 #		Use At Own Risk or just to get idea how I'm handling some things
 #		Uses custom gold.wav from D2 - comment out or remove customAlertSound line if you don't want it in # Gold sections
 #		Extract .filter & .wav from zip and container folder if you downloaded zip
@@ -116,7 +116,6 @@ Show # waystone deco_zone1general
 	WaystoneTier >= 14
 	Class == "waystones"
 	SetBorderColor 255 255 255
-	MinimapIcon 2 Red Square
 	Continue
 
 Show # waystone deco_zone2general
@@ -124,7 +123,6 @@ Show # waystone deco_zone2general
 	WaystoneTier <= 13
 	Class == "waystones"
 	SetBorderColor 191 191 191
-	MinimapIcon 2 Red Square
 	Continue
 
 Show # waystone deco_zone3general
@@ -133,7 +131,6 @@ Show # waystone deco_zone3general
 	Class == "waystones"
 	SetBorderColor 191 191 191
 	SetBackgroundColor 47 47 0
-	MinimapIcon 2 Yellow Square
 	Continue
 
 Show # waystone deco_zone4general
@@ -142,7 +139,6 @@ Show # waystone deco_zone4general
 	Class == "waystones"
 	SetBorderColor 191 191 191
 	SetBackgroundColor 47 47 47
-	MinimapIcon 2 White Square
 	Continue
 
 Show # waytone_up_t16
@@ -263,6 +259,7 @@ Show
 	AreaLevel <= 84 #T16 80 +Irradiated +Corruption +2 zone
 	SetBackgroundColor 191 0 0
 	PlayAlertSound 5 300
+	MinimapIcon 2 Red Square
 
 Show
 	Class == "waystones"
@@ -270,6 +267,7 @@ Show
 	AreaLevel <= 83 #T15 79 +Irradiated +Corruption +2 zone
 	SetBackgroundColor 159 0 0
 	PlayAlertSound 5 300
+	MinimapIcon 2 Red Square
 
 Show
 	Class == "waystones"
@@ -277,6 +275,7 @@ Show
 	AreaLevel <= 82 #T14 78 +Irradiated +Corruption +2 zone
 	SetBackgroundColor 127 0 0
 	PlayAlertSound 5 300
+	MinimapIcon 2 Red Square
 
 Show
 	Class == "waystones"
@@ -284,6 +283,7 @@ Show
 	AreaLevel <= 81 #T13 77 +Irradiated +Corruption +2 zone
 	SetBackgroundColor 95 0 0
 	PlayAlertSound 5 300
+	MinimapIcon 2 Red Square
 
 Show
 	Class == "waystones"
@@ -291,6 +291,7 @@ Show
 	AreaLevel <= 80 #T12 76 +Irradiated +Corruption +2 zone
 	SetBackgroundColor 95 0 0
 	PlayAlertSound 4 300
+	MinimapIcon 2 Red Square
 
 Show
 	Class == "waystones"
@@ -298,66 +299,77 @@ Show
 	AreaLevel <= 79 #T11 75 +Irradiated +Corruption +2 zone
 	SetBackgroundColor 95 0 0
 	PlayAlertSound 4 300
+	MinimapIcon 2 Red Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 10
 	AreaLevel <= 78 #T10 74 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 Yellow Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 9
 	AreaLevel <= 77 #T9 73 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 Yellow Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 8
 	AreaLevel <= 76 #T8 72 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 Yellow Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 7
 	AreaLevel <= 75 #T7 71 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 Yellow Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 6
 	AreaLevel <= 74 #T6 70 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 Yellow Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 5
 	AreaLevel <= 73 #T5 69 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 White Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 4
 	AreaLevel <= 72 #T4 68 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 White Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 3
 	AreaLevel <= 71 #T3 67 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 White Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 2
 	AreaLevel <= 70 #T2 66 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 White Square
 
 Show
 	Class == "waystones"
 	WaystoneTier == 1
 	AreaLevel <= 69 #T1 65 +Irradiated +Corruption +2 zone
 	PlayAlertSound 4 300
+	MinimapIcon 2 White Square
 
 Hide
 	Class == "waystones"
