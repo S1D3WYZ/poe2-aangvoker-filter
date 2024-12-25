@@ -112,85 +112,236 @@ Show
 
 ### WAYSTONES
 
+Show # waystone deco_zone1general
+	WaystoneTier >= 14
+	Class == "waystones"
+	SetBorderColor 255 255 255
+	MinimapIcon 2 Red Square
+	Continue
+
+Show # waystone deco_zone2general
+	WaystoneTier >= 11
+	WaystoneTier <= 13
+	Class == "waystones"
+	SetBorderColor 191 191 191
+	MinimapIcon 2 Red Square
+	Continue
+
+Show # waystone deco_zone3general
+	WaystoneTier >= 6
+	WaystoneTier <= 10
+	Class == "waystones"
+	SetBorderColor 191 191 191
+	SetBackgroundColor 47 47 0
+	MinimapIcon 2 Yellow Square
+	Continue
+
+Show # waystone deco_zone4general
+	WaystoneTier >= 1
+	WaystoneTier <= 5
+	Class == "waystones"
+	SetBorderColor 191 191 191
+	SetBackgroundColor 47 47 47
+	MinimapIcon 2 White Square
+	Continue
+
+Show # waytone_up_t16
+	WaystoneTier >= 16
+	Class == "waystones"
+	AreaLevel < 80
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t15
+	WaystoneTier >= 15
+	Class == "waystones"
+	AreaLevel < 79
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t14
+	WaystoneTier >= 14
+	Class == "waystones"
+	AreaLevel < 78
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t13
+	WaystoneTier >= 13
+	Class == "waystones"
+	AreaLevel < 77
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t12
+	WaystoneTier >= 12
+	Class == "waystones"
+	AreaLevel < 76
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t11
+	WaystoneTier >= 11
+	Class == "waystones"
+	AreaLevel < 75
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t10
+	WaystoneTier >= 10
+	Class == "waystones"
+	AreaLevel < 74
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t9
+	WaystoneTier >= 9
+	Class == "waystones"
+	AreaLevel < 73
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t8
+	WaystoneTier >= 8
+	Class == "waystones"
+	AreaLevel < 72
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t7
+	WaystoneTier >= 7
+	Class == "waystones"
+	AreaLevel < 71
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t6
+	WaystoneTier >= 6
+	Class == "waystones"
+	AreaLevel < 70
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t5
+	WaystoneTier >= 5
+	Class == "waystones"
+	AreaLevel < 69
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t4
+	WaystoneTier >= 4
+	Class == "waystones"
+	AreaLevel < 68
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t3
+	WaystoneTier >= 3
+	Class == "waystones"
+	AreaLevel < 67
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t2
+	WaystoneTier >= 2
+	Class == "waystones"
+	AreaLevel < 66
+	SetBorderColor 191 0 0
+	Continue
+
+Show # waytone_up_t1
+	WaystoneTier >= 1
+	Class == "waystones"
+	AreaLevel < 65
+	SetBorderColor 191 0 0
+	Continue
+
 Show
 	Class == "waystones"
 	WaystoneTier == 16
-	#AreaLevel <= 80 #T16
+	AreaLevel <= 84 #T16 80 +Irradiated +Corruption +2 zone
+	SetBackgroundColor 191 0 0
 
 Show
 	Class == "waystones"
 	WaystoneTier == 15
-	#AreaLevel <= 79 #T15
+	AreaLevel <= 83 #T15 79 +Irradiated +Corruption +2 zone
+	SetBackgroundColor 159 0 0
 
 Show
 	Class == "waystones"
 	WaystoneTier == 14
-	#AreaLevel <= 78 #T14
+	AreaLevel <= 82 #T14 78 +Irradiated +Corruption +2 zone
+	SetBackgroundColor 127 0 0
 
 Show
 	Class == "waystones"
 	WaystoneTier == 13
-	#AreaLevel <= 77 #T13
+	AreaLevel <= 81 #T13 77 +Irradiated +Corruption +2 zone
+	SetBackgroundColor 95 0 0
 
 Show
 	Class == "waystones"
 	WaystoneTier == 12
-	#AreaLevel <= 76 #T12
+	AreaLevel <= 80 #T12 76 +Irradiated +Corruption +2 zone
+	SetBackgroundColor 95 0 0
 
 Show
 	Class == "waystones"
 	WaystoneTier == 11
-	#AreaLevel <= 75 #T11
+	AreaLevel <= 79 #T11 75 +Irradiated +Corruption +2 zone
+	SetBackgroundColor 95 0 0
 
 Show
 	Class == "waystones"
 	WaystoneTier == 10
-	#AreaLevel <= 74 #T10
+	AreaLevel <= 78 #T10 74 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 9
-	#AreaLevel <= 73 #T9
+	AreaLevel <= 77 #T9 73 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 8
-	#AreaLevel <= 72 #T8
+	AreaLevel <= 76 #T8 72 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 7
-	#AreaLevel <= 71 #T7
+	AreaLevel <= 75 #T7 71 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 6
-	#AreaLevel <= 70 #T6
+	AreaLevel <= 74 #T6 70 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 5
-	#AreaLevel <= 69 #T5
+	AreaLevel <= 73 #T5 69 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 4
-	#AreaLevel <= 68 #T4
+	AreaLevel <= 72 #T4 68 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 3
-	#AreaLevel <= 67 #T3
+	AreaLevel <= 71 #T3 67 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 2
-	#AreaLevel <= 66 #T2
+	AreaLevel <= 70 #T2 66 +Irradiated +Corruption +2 zone
 
 Show
 	Class == "waystones"
 	WaystoneTier == 1
-	#AreaLevel <= 58 #T1 - alvl 65
+	AreaLevel <= 69 #T1 65 +Irradiated +Corruption +2 zone
 
 #Hide
 #	Class == "waystones"
